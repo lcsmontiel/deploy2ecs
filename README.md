@@ -12,7 +12,7 @@ npm install && zip -r deploy2ecs.zip *
 Then upload the the deploy2ecs.zip to creation of a Lambda Function and configure it with a role which can Describe, Update task definition and service.
 
 ## Configure the CodePipeline
-Configure Codepipeline to execute the lambda configure below and put the following json in User Parameters
+Configure Codepipeline to execute the lambda configured below and put the following json in User Parameters
 
 ```json
 {
