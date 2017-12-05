@@ -1,0 +1,15 @@
+{
+  "name": "deploy2ecs",
+  "repository": "https://github.com/lcsmontiel/deploy2ecs",
+  "version": "0.0.1",
+  "description": "Deploy2ECS is a Lambda Function to be executed into a step of AWS Codepipeline to update the Elastic Container Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.162.0"
+  }
+}
